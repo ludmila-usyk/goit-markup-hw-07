@@ -28,10 +28,6 @@ li {
     list-style-type: none;
     /* Убираем маркеры */
 }
-/* .link {
-    display: flex;
-    align-items: center;
-} */
 .conteiner {
     width: 1200px;
     padding-left: 15px;
@@ -50,15 +46,6 @@ ul {
 }
 
 /* модальное окно */
-/* .form-input:required {
-    border-color: red;
-} */
-/* .form-input:placeholder-shown {
-    border-color: #ffa000;
-}
-.form-input:not(:placeholder-shown) {
-    border-color: green;
-} */
 .form-input:valid{
     color: red;
 }
@@ -230,7 +217,7 @@ label:focus {
 .input {
     stroke: solid rgba(255, 255, 255, 0.3);
 }
-.input-field {
+.input__field {
     margin-right: 12px;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -246,7 +233,7 @@ label:focus {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
 }
-.footer__social {
+.footer-social {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -276,12 +263,12 @@ label:focus {
 .adress__bottom:not(:last-child) {
     margin-bottom: 9px;
 }
-.social__icons .icon {
+.social-icons .icon {
     width: 20px;
     height: 20px;
     fill: var(--border-color);
 }
-.social__icons-item:not(:last-child) {
+.social-icons__item:not(:last-child) {
     margin-right: 10px;
 }
 
@@ -292,7 +279,7 @@ label:focus {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
-.social__icons-link {
+.social-icons-link {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -301,13 +288,13 @@ label:focus {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social__icons-link:hover,
-.social__icons-link:focus {
+.social-icons-link:hover,
+.social-icons-link:focus {
     background-color: var(--accent-color);
     fill: var(--white-color);
     border-radius: 50%;
 }
-.social__icons {
+.social-icons {
     display: inline-flex;
 }
 .adress {
@@ -378,10 +365,6 @@ label:focus {
     padding-top: 32px;
     padding-bottom: 32px;
 }
-/* .header__nav:hover,
-.header__nav:focus {
-    color: var(--accent-color);
-} */
 .mail__tell:hover,
 .mail__tell:focus {
     color: var(--accent-color);
@@ -633,8 +616,8 @@ label:focus {
     text-align: center;
     margin-bottom: 16px;
 }
-.social__icons-link:hover .icon,
-.social__icons-link:focus .icon {
+.social-icons-link:hover .icon,
+.social-icons-link:focus .icon {
     fill: var(--white-color);
 }
 .icon {
