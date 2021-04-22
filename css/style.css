@@ -46,10 +46,10 @@ ul {
 }
 
 /* модальное окно */
-.form-input:valid{
+.form__input:valid{
     color: red;
 }
-.form-input:invalid{
+.form__input:invalid{
     color: forestgreen;
 } 
 
@@ -107,12 +107,12 @@ ul {
     height: 40px;
     margin-bottom: 10px;
 }
-.form-input:focus~.form-icon {
+.form__input:focus~.form-icon {
     fill: var(--accent-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input:focus {
+.form__input:focus {
     border: 1px solid var(--accent-color);
     outline-color: var(--accent-color);
     transition-duration: 250ms;
@@ -144,7 +144,7 @@ textarea:focus {
     color: var(--accent-color);
     text-decoration: underline;
 }
-.form-input {
+.form__input {
     position: absolute;
     padding: 10px 10px 10px 40px;
     width: 100%;
@@ -165,7 +165,7 @@ textarea {
     margin-bottom: 20px;
 
 }
-.modal-label {
+.modal__label {
     color: #757575;
     font-family: Roboto;
     font-size: 12px;
