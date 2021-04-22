@@ -97,7 +97,7 @@ ul {
     background-color: var(--white-color);
     color: var(--accent-color);
 }
-.form-icon {
+.form__icon {
     position: relative;
     top: 14px;
     left: 15px;
@@ -107,7 +107,7 @@ ul {
     height: 40px;
     margin-bottom: 10px;
 }
-.form__input:focus~.form-icon {
+.form__input:focus~.form__icon {
     fill: var(--accent-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -118,7 +118,7 @@ ul {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-textarea:focus {
+.modal__comment:focus {
     border: 1px solid var(--accent-color);
     outline-color: var(--accent-color);
     transition-duration: 250ms;
@@ -154,7 +154,7 @@ textarea:focus {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-textarea {
+.modal__comment {
     width: 100%;
     border-width: 2px;
     border-radius: 4px;
@@ -187,10 +187,15 @@ textarea {
 .agreement {
     margin-bottom: 30px;
 }
-label:hover,
+/* label:hover,
 label:focus {
     color: var(--accent-color);
+} */
+.modal__label:hover,
+.modal__label:focus {
+    color: var(--accent-color);
 }
+
 /* футер */
 .footer {
     background-color: var(--bg-color);
