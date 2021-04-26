@@ -32,10 +32,6 @@
     text-align: center;
     margin-bottom: 16px;
 }
-.social-icons-link:hover .icon,
-.social-icons-link:focus .icon {
-    fill: var(--white-color);
-}
 .icon {
     fill: var(--border-color);
     -webkit-box-align: center;
@@ -48,4 +44,9 @@
     transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    .social-icons-link:hover &,
+    .social-icons-link:focus & {
+        fill: var(--white-color);
+    }
 }

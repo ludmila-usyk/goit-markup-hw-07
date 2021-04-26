@@ -28,15 +28,17 @@
     padding-top: 94px;
     padding-left: 94px;
 }
-.team-item .tech__item:not(:last-child) {
-    margin-right: 30px;
-}
+
 .team-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+
+    & .tech__item:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 .tech {
     padding-bottom: 94px;

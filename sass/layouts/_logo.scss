@@ -9,16 +9,18 @@
     margin-right: 94px;
     font-weight: bold;
     display: block;
+
+    .footer & {
+        margin-bottom: 20px;
+    }
 }
 .logo {
     margin-bottom: 20px;
-}
-.logo {
     color: var(--white-color);
 }
+// .logo {
+//     color: var(--white-color);
+// }
 .logo-heder {
     color: var(--black-color);
-}
-.footer .logo__page {
-    margin-bottom: 20px;
 }

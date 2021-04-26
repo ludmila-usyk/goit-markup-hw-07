@@ -38,6 +38,9 @@
     width: 16px;
     height: 15px;
 }
+.agreement__label--check {
+    cursor: pointer;
+}
 .agreement__label {
     font-size: 14px;
     line-height: 1.71;
@@ -63,6 +66,9 @@
 }
 .agreement {
     margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .form-title {
     display: inline-block;
@@ -75,5 +81,3 @@
     letter-spacing: 0.03em;
     color: var(--black-color);
 }
-
-

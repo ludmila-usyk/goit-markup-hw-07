@@ -2,6 +2,10 @@
     background-color: var(--bg-color);
     padding-top: 60px;
     padding-bottom: 60px;
+
+    & .mail__tell {
+        display: list-item;
+    }
 }
 .footer__web {
     display: -webkit-box;
@@ -11,7 +15,7 @@
     -ms-flex-align: baseline;
     align-items: baseline;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .footer__input {
     display: -webkit-box;
@@ -47,9 +51,6 @@
     text-transform: uppercase;
     color: var(--white-color);
     margin-bottom: 20px;
-}
-.footer .mail__tell {
-    display: list-item;
 }
 .send {
     margin-left: 10px;
