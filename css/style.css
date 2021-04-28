@@ -176,10 +176,28 @@ img {
 }
 
 .conteiner {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .conteiner {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .conteiner {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .conteiner {
+    max-width: 1200px;
+  }
 }
 
 button:hover {
@@ -1203,6 +1221,4 @@ a:focus .overlay__item {
   letter-spacing: 0.03em;
   color: var(--grey-light-color);
 }
-
-/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
